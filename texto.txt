@@ -1,0 +1,37 @@
+- User
+-- id
+-- email
+-- password
+-- name
+-- birthdate
+-- city
+-- work
+-- avatar
+-- cover
+-- token
+-- redirect
+
+- UserRelations
+-- id
+-- user_from
+-- user_to
+
+- Post
+-- id
+-- type (text, photo)
+-- created_at
+-- body (text, photo, video, audio)
+-- like_count
+
+- PostComments
+-- id
+-- id_post
+-- id_user
+-- created_at
+-- body
+
+- PostLikes
+-- id
+-- id_post
+-- id_user
+-- created_at
